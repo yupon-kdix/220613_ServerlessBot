@@ -8,7 +8,11 @@ export function aho(interaction:ApplicationCommandInteraction):InteractionRespon
   const member = interaction.member
 
   let a = "";
-  switch (a) {
+
+  let list = ["きり","えま","ろな"];
+  let num = Math.floor(Math.random() * list.length)
+
+  switch (list[num]) {
     case "きり":
       a = "きりのあほ"
       break;
