@@ -11,7 +11,7 @@ const headers = {
 }
 
 const body:GlobalApplicationCommand = {
-    name: "daice",
+    name: "aho",
     description: "daice",
 }
 
